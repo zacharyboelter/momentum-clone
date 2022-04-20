@@ -52,3 +52,7 @@ div#crypto-bottom {
 div#crypto > p {
     margin: 0 15px;
 }
+
+.time {
+    font-size: 3em;
+}

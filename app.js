@@ -40,3 +40,13 @@ fetch('https://api.coingecko.com/api/v3/coins/ethereum')
     })
     .catch(err => console.error(err))
 
+
+function getTime() {
+    let d = new Date();
+    let n = d.toLocaleTimeString("en-us", {timeStyle: "short"});
+    document.getElementById('time').textContent = n
+}
+setInterval(getTime, 1000)
+
+
+
