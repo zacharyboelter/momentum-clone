@@ -11,7 +11,7 @@ body {
     background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 0px 0px 20px #aaaaaa;
+    text-shadow: 0px 0px 20px #cacaca;
 }
 
 .main {
@@ -30,4 +30,25 @@ body {
 
 .time {
     text-align: center;
+}
+
+div#crypto {
+    font-size: 1.3rem;    
+}
+
+div#crypto-top{
+    display: flex;
+    align-items: center;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
+}
+
+div#crypto-bottom {
+    margin-left: 15px;
+}
+
+div#crypto > p {
+    margin: 0 15px;
 }
