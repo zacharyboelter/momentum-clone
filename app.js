@@ -1,0 +1,3 @@
+function getBackGroundImage() {
+    async 
+}
