@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background: no-repeat center center fixed; 
+    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,15 +33,15 @@ body {
 }
 
 div#crypto {
-    font-size: 1.3rem;    
+    font-size: 1.3rem;
 }
 
-div#crypto-top{
+div#crypto-top {
     display: flex;
     align-items: center;
 }
 
-div#crypto-top > span {
+div#crypto-top>span {
     margin-left: 10px;
 }
 
@@ -49,7 +49,7 @@ div#crypto-bottom {
     margin-left: 15px;
 }
 
-div#crypto > p {
+div#crypto>p {
     margin: 0 15px;
 }
 
@@ -57,15 +57,14 @@ div#crypto > p {
     font-size: 3em;
 }
 
-div.weather {
+/* div.weather {
     margin-right: 20px;
 }
 div.weather-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0;
-    margin-right: 15px;
+    margin: 0;
     padding: 0;
     font-size: 2rem;
 }
@@ -78,4 +77,30 @@ div.weather > p {
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
+} */
+
+div#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-right: 15px;
+}
+
+div#weather>img {
+    width: 70px;
+}
+
+div#weather>.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -5px;
+}
+
+div#weather>.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: 5px;
 }

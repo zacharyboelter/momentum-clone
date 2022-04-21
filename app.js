@@ -61,14 +61,15 @@ navigator.geolocation.getCurrentPosition(position => {
             const iconImage =  `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
             console.log(iconImage)
 
-            document.getElementById('weather-top').innerHTML = `
+            document.getElementById('weather').innerHTML = `
                 <img src="${iconImage}" />
-                <p>${Math.round(data.main.temp)}º</p>
+                <p class="weather-temp">${Math.round(data.main.temp)}º</p>
+                <p class="weather-city">${data.name}</p>
                 
             `
-            document.getElementById('weather').innerHTML += `
-            <p>${data.name}</p>
-            `
+            // document.getElementById('weather').innerHTML += `
+            // <p>${data.name}</p>
+            // `
         })
         .catch(err => console.error(err))
 });
