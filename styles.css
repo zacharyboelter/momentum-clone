@@ -54,7 +54,7 @@ div#crypto>p {
 }
 
 .time {
-    font-size: 3em;
+    font-size: 5em;
 }
 
 /* div.weather {
@@ -97,6 +97,7 @@ div#weather>.weather-city {
     text-align: right;
     margin: 0;
     margin-top: -5px;
+    font-size: 1.5rem;
 }
 
 div#weather>.weather-temp {
