@@ -63,7 +63,8 @@ navigator.geolocation.getCurrentPosition(position => {
 
             document.getElementById('weather').innerHTML = `
                 <img src="${iconImage}" />
-                
+                <p>${Math.round(data.main.temp)}º</p>
+                <p>${data.name}</p>
             `
         })
         .catch(err => console.error(err))
